@@ -140,7 +140,7 @@
         "type": "function",
         "z": "5bdf7c5b0c22afc8",
         "name": "Create Message",
-        "func": " msg.payload = JSON.parse(`{\n    \"chatId\": 5294030147,\n    \"type\": \"message\",\n    \"content\": \"The door is opened\"\n}`);\nreturn msg;",
+        "func": " msg.payload = JSON.parse(`{\n    \"chatId\": xxxxxx,\n    \"type\": \"message\",\n    \"content\": \"The door has been opened\"\n}`);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
